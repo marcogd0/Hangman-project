@@ -13,7 +13,7 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("Let'sw play Hangman!")
+    print("Let's play Hangman!")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
@@ -55,7 +55,7 @@ def play(word):
     if guessed:
         print("Congratulations, you guessed the word! You win")
     else:
-        print("Sorry, you ran out of tries. The word was " + word + ".Marbe next time!")
+        print("Sorry, you ran out of tries. The word was " + word + ".Maybe next time!")
 
 
 def display_hangman(tries):
